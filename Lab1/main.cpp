@@ -15,9 +15,12 @@ void rotate(float angel) {
 void drawSquare(double x1, double y1, double sidelength) {
     double halfside = sidelength / 2;
 
+    glColor3d(1, 1, 1);
+
     rotate(45);
 
-    glColor3d(1, 1, 1);
+    glScalef(1.1f, 1.1f, 1.0f);
+
     glBegin(GL_LINE_LOOP);
 
     glVertex2d(x1 + halfside, y1 + halfside);
