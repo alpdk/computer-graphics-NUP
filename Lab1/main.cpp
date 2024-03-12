@@ -13,7 +13,7 @@ void drawSquare(double x1, double y1, double sidelength)
     double halfside = sidelength / 2;
 
     glColor3d(1,1,1);
-    glBegin(GL_POLYGON);
+    glBegin(GL_LINE_LOOP);
 
     glVertex2d(x1 + halfside, y1 + halfside);
     glVertex2d(x1 + halfside, y1 - halfside);
