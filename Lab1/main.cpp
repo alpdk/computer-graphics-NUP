@@ -6,13 +6,18 @@ void initializeGL() {
     glClearColor(0.0f, 0.0f, 0.0f, 1.0f); // Setting black color as a background color
 }
 
+void rotate(float angel) {
+    glRotatef(angel, 0.0f, 0.0f, 1.0f);
+}
+
 /* Draw square function */
 
-void drawSquare(double x1, double y1, double sidelength)
-{
+void drawSquare(double x1, double y1, double sidelength) {
     double halfside = sidelength / 2;
 
-    glColor3d(1,1,1);
+    rotate(45);
+
+    glColor3d(1, 1, 1);
     glBegin(GL_LINE_LOOP);
 
     glVertex2d(x1 + halfside, y1 + halfside);
