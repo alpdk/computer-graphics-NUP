@@ -10,7 +10,7 @@ void display() {
 //    glTranslatef(0.0f, 0.0f, -0.5f);
     gluLookAt(0.075, 0.05, 0.1, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0);
     glColor3f(0.0f, 0.0f, 1.0f);
-    glutWireCube(0.2f);
+    glutSolidCube(0.2f);
 
     glutSwapBuffers();
 }
