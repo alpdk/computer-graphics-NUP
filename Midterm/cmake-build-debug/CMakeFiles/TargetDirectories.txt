@@ -1,0 +1,3 @@
+/home/alpdk/gitRepos/computer-graphics-NUP/Midterm/cmake-build-debug/CMakeFiles/Midterm.dir
+/home/alpdk/gitRepos/computer-graphics-NUP/Midterm/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/alpdk/gitRepos/computer-graphics-NUP/Midterm/cmake-build-debug/CMakeFiles/rebuild_cache.dir
